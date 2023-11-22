@@ -3,7 +3,7 @@ import { Server } from "node:net";
 const server = new Server();
 const END = [ "end", "quit", "exit", "logout" ];
 
-let clients = {
+let connections = {
 	
 };
 
